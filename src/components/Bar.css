@@ -1,0 +1,21 @@
+/* bar */
+.bar {
+    width: 90%;
+    background-color: #f1f2f3;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .bar__icon {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .bar__wrapper {
+    background:  #c0392b;
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  /* end bar */

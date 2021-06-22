@@ -1,0 +1,77 @@
+
+/* sidebar */
+
+.sidebar {
+    background-color: #fff;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+  }
+  .sidebar__avatar {
+    height: 110px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  
+  .sidebar__icon {
+    width: 25px;
+    height: 25px;
+    color: #000;
+  }
+  
+  .sidebar__name {
+    font-family: Kaushan Script;
+    margin: 20px 0;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar__name > span {
+    color: #f11712;
+  }
+  
+  .sidebar__item {
+    margin-bottom: 6px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 1.05rem;
+    border-radius: 30px;
+  }
+  
+  .sidebar__title {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+  }
+  
+  .sidebar__contact {
+    background-color: #dbdddf;
+    padding: 2px 2px;
+    margin: 20px -15px;
+  }
+  .sidebar__email {
+    color: #000;
+    background: #0099f7;
+    margin: 15px 25px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 3s linear;
+  }
+  
+  .sidebar__email:hover {
+    transform: scale(1.2);
+  }
+  
+  .sidebar__github:hover,
+  .sidebar__resume:hover {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  .sidebar__icon {
+    filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+  }
+  /* end sidebar */
+  
+  
+  
+  
